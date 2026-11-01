@@ -32,3 +32,34 @@ npm run dev
 ```
 
 สำหรับ Backend ให้ใช้คำสั่งตามที่กำหนดใน `package.json`
+
+---
+
+## 📁 โครงสร้างโปรเจกต์โดยสังเขป (Project Structure)
+
+```text
+├── API-MANAGE-ACTIVITY/          # Backend และ API
+│   ├── src/
+│   │   ├── config/               # การตั้งค่าระบบ
+│   │   ├── features/             # การทำงานของแต่ละส่วน
+│   │   └── middlewares/          # การตรวจสอบและจัดการคำขอ
+│   └── package.json
+│
+├── KUSE-ACTIVITY/                # เว็บไซต์สำหรับผู้ใช้งานทั่วไป
+│   ├── public/
+│   ├── src/
+│   │   ├── components/           # ส่วนประกอบที่ใช้ร่วมกัน
+│   │   ├── pages/                # หน้าต่าง ๆ ของเว็บไซต์
+│   │   └── style/                # ไฟล์ CSS
+│   └── package.json
+│
+└── KUSE-ADMIN-ACTIVITY/          # ระบบสำหรับผู้ดูแล
+    ├── public/
+    ├── src/
+    │   ├── components/           # Component ที่ใช้ร่วมกัน
+    │   ├── modals/               # หน้าต่าง Modal
+    │   ├── pages/                # หน้าจัดการข้อมูล
+    │   ├── utils/                # ฟังก์ชันที่ใช้ร่วมกัน
+    │   └── style/                # ไฟล์ CSS
+    └── package.json
+```
