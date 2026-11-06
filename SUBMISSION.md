@@ -19,4 +19,3 @@ https://drive.google.com/drive/folders/107XW56N4GQT-NePuA1SX0voaYw6btWyD?usp=dri
 - 🎬 **วิดีโอแนะนำโครงงาน**
   - `เว็บไซต์เผยแพร่กิจกรรม.mp4`
 
-**หมายเหตุ:** ตั้งค่าสิทธิ์การเข้าถึงโฟลเดอร์เป็น Anyone with the link เพื่อให้ผู้ที่มีลิงก์สามารถเข้าถึงไฟล์ได้
